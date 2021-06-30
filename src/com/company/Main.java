@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        int arr[]={23,11,09,05,15,28};
+        int arr[]={23,11,9,05,15,28};
 
 
         for(int i = 0;i< arr.length-1;i++){//outer loop for passes
