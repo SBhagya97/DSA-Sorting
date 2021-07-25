@@ -7,7 +7,7 @@ public class Ascending {
         for(int i = 0;i< num.length-1;i++){//outer loop for passes
             int flag=0;
             for(int j=0;j<num.length-1-i;j++){//inner loop  for sort
-                if(num[j]>num[j+1]){
+                if(num[j]<num[j+1]){
                     int temp;
                     temp=num[j+1];
                     num[j+1]=num[j];
